@@ -1,0 +1,15 @@
+{
+    "vehicles": [
+        {
+            "level1": "Land Rover",
+            "level2": "Range Rover Evqoue",
+            "level3": "2021 Model",
+            "level4": "5 Door Stationwagon",
+            "level5": "HSE",
+            "level6": "x",
+            "National_code": "1001",
+            "M_ID": "151",
+            "Image": "https://res.cloudinary.com/omniauto/image/upload/v1616069903/cosySec_gjqyul.png"
+        }
+    ]
+}

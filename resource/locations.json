@@ -1,0 +1,24 @@
+{
+  "locations": [
+    {
+      "brands": "BMW, MINI",
+      "location_name": "BMW Leeds",
+      "address": "sample",
+      "magento_code": "001",
+      "opening_hours": "sample",
+      "location_image": "https://res.cloudinary.com/omniauto/image/upload/v1616069903/cosySec_gjqyul.png",
+      "longitude": "sample",
+      "latitude": "sample"
+    },
+    {
+      "brands": "Land Rover",
+      "location_name": "Land Rover Leeds",
+      "address": "sample",
+      "magento_code": "002",
+      "opening_hours": "sample",
+      "location_image": "https://res.cloudinary.com/omniauto/image/upload/v1616069903/cosySec_gjqyul.png",
+      "longitude": "sample",
+      "latitude": "sample"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rates": [
+    {
+      "brand": "BMW",
+      "rate": "15"
+    },
+    {
+      "brand": "Land Rover",
+      "rate": "18"
+    }
+  ]
+}

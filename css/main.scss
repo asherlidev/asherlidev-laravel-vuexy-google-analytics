@@ -1,0 +1,135 @@
+@import "~@storefront-ui/vue/styles";
+@import "./breakpoints";
+@import "./typography";
+@import "~swiper/css/swiper.min.css";
+
+
+:root {
+  @font-face {
+    font-family: "bmwTypeNextWeb-Bold";
+    src: url("/assets/fonts/bmw-light.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "bmwTypeNextWeb-Light";
+    src: url("/assets/fonts/bmw-light.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "bmwTypeNextWeb";
+    src: url("/assets/fonts/bmw-bold.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "pacifico";
+    src: url("/assets/fonts/pacifico-v17-latin-regular.woff2") format("woff2");
+    font-weight: 700;
+  }
+
+  --border-radius: 0.625rem; // 10px
+  --search-bar-width: 200px !important;
+  --c-dark-variant: #000;
+  /** colors **/
+  --c-badge: #005a2b;
+  @include generate-color-variants(--_c-green-primary, #1c69d4);
+  // Green
+  @include assign-color-variants(--c-primary, --_c-green-primary);
+  --c-light-variant: #f4f4f4;
+  .color-light-variant {
+    background: var(--c-light-variant);
+    color: black;
+  }
+  --c-mm-background: #efefef !important;
+  --c-grey-text: #444444;
+  --c-light: #efefef;
+  --c-grey-text-light: rgb(170, 170, 170);
+  /* Custome SfButton */
+  --button-border-radius: 0.7rem;
+  --button-text-transform: none;
+  --breadcrumbs-list-item-seperator: ">";
+  --add-cart-step-text-color: #c1c1c1;
+
+  --button-border-radius: 0;
+
+  body {
+    letter-spacing: .014em;
+    -webkit-font-smoothing: antialiased;
+    --overlay-z-index: 2;
+    background: #fff;
+    overflow-x: hidden;
+  }
+  .sf-banner{
+    min-height: var(--banner-height, 500px) !important;
+    padding: 80px !important;
+    background-position: center;
+  }
+  .sf-banner__container{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    flex: 0 0 var(--banner-container-width, 35%);
+  }
+  .breadcrumbs{
+    padding: 15px 40px !important;
+  }
+  .o-header .search-container{
+    order: 4;
+  }
+  .sf-gallery__stage{
+    max-width: 100%;
+  }
+  .m-product-gallery{
+    width: 70%;
+  }
+  .product__info{
+    width: 30% !important;
+    margin: 0 0 0 40px !important;
+    padding: 0 30px 0 0 !important;
+  }
+
+  .sf-header {
+    header {
+      max-width: 100%;
+      padding: 0;
+      height: 99px;
+    }
+    &__navigation {
+      flex: 1;
+      justify-content: flex-start;
+    }
+    &__icons {
+      height: 80px;
+      padding: 0 20px;
+      justify-content: center;
+      margin: 0;
+      align-items: center;
+    }
+    &__action {
+      width: 52px;
+      margin: 0;
+    }
+    &-navigation-item {
+      flex: none;
+      >a {
+        color: #666;
+        text-transform: none;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .om-header-status .status-item {
+    flex: 1;
+    height: 44px;
+  }
+
+  .sf-loader__overlay {
+    background-color: transparent;
+  }
+
+  --modal-index: 2;
+
+  .static-page {
+    background: var(--c-light-variant);
+  }
+}
